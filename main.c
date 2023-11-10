@@ -8,7 +8,7 @@ int main()
     srand(time(NULL));
 double withdrawal;
 //double balance=1000.0;
-double balance=rand()%4001+1000;
+double balance=rand()%4001+1000; // random for balance
 printf("welcome to your bank\nEnter amount to withdrawal: $");
 scanf("%lf",&withdrawal);
 printf("your balance is %.3lf\n",balance);
